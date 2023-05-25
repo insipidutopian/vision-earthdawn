@@ -10,7 +10,7 @@ export class VisionModeDetectEvilAndGood extends VisionMode {
     constructor() {
         super({
             id: "detectEvilAndGood",
-            label: "VISION5E.DetectEvilAndGood",
+            label: "VISIONED4.DetectEvilAndGood",
             canvas: {
                 shader: VoidSamplerShader,
                 uniforms: { contrast: 0, saturation: 0, exposure: 0 }

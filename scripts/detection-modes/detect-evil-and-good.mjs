@@ -8,7 +8,7 @@ export class DetectionModeDetectEvilAndGood extends DetectionMode {
     constructor() {
         super({
             id: "detectEvilAndGood",
-            label: "VISION5E.DetectEvilAndGood",
+            label: "VISIONED4.DetectEvilAndGood",
             type: DetectionMode.DETECTION_TYPES.OTHER,
             walls: false,
             angle: false

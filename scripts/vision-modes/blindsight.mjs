@@ -7,7 +7,7 @@ export class VisionModeBlindsight extends VisionMode {
     constructor() {
         super({
             id: "blindsight",
-            label: "DND5E.SenseBlindsight",
+            label: "ED4.SenseBlindsight",
             canvas: {
                 shader: ColorAdjustmentsSamplerShader,
                 uniforms: { contrast: 0.5, saturation: -1, exposure: 0 }

@@ -62,7 +62,7 @@ const resetActiveTokens = (() => {
 Hooks.once("init", () => {
     const SENSES = Symbol("senses");
 
-    CONFIG.Actor.documentClass = class Actor5e extends CONFIG.Actor.documentClass {
+    CONFIG.Actor.documentClass = class ActorED4 extends CONFIG.Actor.documentClass {
         /** @override */
         prepareData() {
             super.prepareData();
@@ -80,7 +80,7 @@ Hooks.once("init", () => {
         }
     };
 
-    CONFIG.Token.documentClass = class TokenDocument5e extends CONFIG.Token.documentClass {
+    CONFIG.Token.documentClass = class TokenDocumentED4 extends CONFIG.Token.documentClass {
         /** @override */
         _prepareDetectionModes() {
             if (this.sight.enabled && this.actor) {

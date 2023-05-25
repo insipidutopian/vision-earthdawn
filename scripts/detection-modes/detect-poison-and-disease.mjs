@@ -8,7 +8,7 @@ export class DetectionModeDetectPoisonAndDisease extends DetectionMode {
     constructor() {
         super({
             id: "detectPoisonAndDisease",
-            label: "VISION5E.DetectPoisonAndDisease",
+            label: "VISIONED4.DetectPoisonAndDisease",
             type: DetectionMode.DETECTION_TYPES.OTHER,
             walls: false,
             angle: false

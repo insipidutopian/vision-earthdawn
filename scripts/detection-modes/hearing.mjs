@@ -8,7 +8,7 @@ export class DetectionModeHearing extends DetectionMode {
     constructor() {
         super({
             id: "hearing",
-            label: "VISION5E.Hearing",
+            label: "VISIONED4.Hearing",
             type: DetectionMode.DETECTION_TYPES.SOUND,
             walls: true,
             angle: false

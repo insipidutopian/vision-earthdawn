@@ -1,9 +1,8 @@
 [![Latest Version](https://img.shields.io/github/v/release/dev7355608/vision-5e?display_name=tag&sort=semver&label=Latest%20Version)](https://github.com/dev7355608/vision-5e/releases/latest)
 ![Foundry Version](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdev7355608%2Fvision-5e%2Fmain%2Fmodule.json)
-[![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fvision-5e&colorB=blueviolet)](https://forge-vtt.com/bazaar#package=vision-5e)
 [![License](https://img.shields.io/github/license/dev7355608/vision-5e?label=License)](LICENSE)
 
-# Vision/Detection Modes for D&D 5e (Foundry VTT Module)
+# Vision/Detection Modes for Earthdawn 4e (Foundry VTT Module)
 
 The following vision/detection modes are included.
 

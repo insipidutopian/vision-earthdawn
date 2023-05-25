@@ -7,7 +7,7 @@ export class DetectionModeGhostlyGaze extends DetectionModeDarkvision {
     constructor() {
         super({
             id: "ghostlyGaze",
-            label: "VISION5E.GhostlyGaze",
+            label: "VISIONED4.GhostlyGaze",
             walls: false
         });
     }

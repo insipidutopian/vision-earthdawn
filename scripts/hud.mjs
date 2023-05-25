@@ -57,19 +57,19 @@ Hooks.on("renderTokenHUD", (hud, html) => {
         const button = event.currentTarget;
 
         button.classList.toggle("active");
-        button.querySelector(`.vision-5e.vision-modes`).classList.toggle("active");
+        button.querySelector(`.vision-earthdawn.vision-modes`).classList.toggle("active");
     });
 
     visionControl.insertAdjacentHTML("beforeend", `
-        <div class="vision-5e vision-modes">
+        <div class="vision-earthdawn vision-modes">
             ${visionModes.map(mode => `
-            <div class="vision-5e vision-mode ${mode.id === token.document.sight.visionMode ? "active" : ""} flexrow" data-vision-mode="${mode.id}">
-                <span class="vision-5e vision-mode-label">${game.i18n.localize(mode.id !== "basic" ? mode.label : CONFIG.Canvas.visionModes.darkvision.label)}</span>
+            <div class="vision-earthdawn vision-mode ${mode.id === token.document.sight.visionMode ? "active" : ""} flexrow" data-vision-mode="${mode.id}">
+                <span class="vision-earthdawn vision-mode-label">${game.i18n.localize(mode.id !== "basic" ? mode.label : CONFIG.Canvas.visionModes.darkvision.label)}</span>
             </div>`).join("")}
         </div>
     `);
 
-    const visionModesList = visionControl.querySelector(`.vision-5e.vision-modes`);
+    const visionModesList = visionControl.querySelector(`.vision-earthdawn.vision-modes`);
 
     ["click", "contextmenu", "mouseenter", "mouseleave"].forEach(
         eventType => visionModesList.addEventListener(eventType, event => {
@@ -78,7 +78,7 @@ Hooks.on("renderTokenHUD", (hud, html) => {
         })
     );
 
-    visionModesList.querySelectorAll(`.vision-5e.vision-mode`).forEach(
+    visionModesList.querySelectorAll(`.vision-earthdawn.vision-mode`).forEach(
         element => element.addEventListener("click", (event) => {
             event.preventDefault();
 

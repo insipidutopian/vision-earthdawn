@@ -8,7 +8,7 @@ export class DetectionModeDetectThoughts extends DetectionMode {
     constructor() {
         super({
             id: "detectThoughts",
-            label: "VISION5E.DetectThoughts",
+            label: "VISIONED4.DetectThoughts",
             type: DetectionMode.DETECTION_TYPES.OTHER,
             walls: false,
             angle: false

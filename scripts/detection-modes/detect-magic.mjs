@@ -8,7 +8,7 @@ export class DetectionModeDetectMagic extends DetectionMode {
     constructor() {
         super({
             id: "detectMagic",
-            label: "VISION5E.DetectMagic",
+            label: "VISIONED4.DetectMagic",
             type: DetectionMode.DETECTION_TYPES.OTHER,
             walls: false,
             angle: false

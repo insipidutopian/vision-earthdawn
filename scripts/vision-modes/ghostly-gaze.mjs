@@ -7,7 +7,7 @@ export class VisionModeGhostlyGaze extends VisionMode {
     constructor() {
         super({
             id: "ghostlyGaze",
-            label: "VISION5E.GhostlyGaze",
+            label: "VISIONED4.GhostlyGaze",
             canvas: {
                 shader: ColorAdjustmentsSamplerShader,
                 uniforms: { contrast: 0, saturation: -1.0, brightness: 0 }

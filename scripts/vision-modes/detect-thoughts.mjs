@@ -10,7 +10,7 @@ export class VisionModeDetectThoughts extends VisionMode {
     constructor() {
         super({
             id: "detectThoughts",
-            label: "VISION5E.DetectThoughts",
+            label: "VISIONED4.DetectThoughts",
             canvas: {
                 shader: VoidSamplerShader,
                 uniforms: { contrast: 0, saturation: 0, exposure: 0 }

@@ -10,7 +10,7 @@ export class VisionModeDetectMagic extends VisionMode {
     constructor() {
         super({
             id: "detectMagic",
-            label: "VISION5E.DetectMagic",
+            label: "VISIONED4.DetectMagic",
             canvas: {
                 shader: VoidSamplerShader,
                 uniforms: { contrast: 0, saturation: 0, exposure: 0 }

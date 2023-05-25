@@ -7,7 +7,7 @@ export class VisionModeDevilsSight extends VisionMode {
     constructor() {
         super({
             id: "devilsSight",
-            label: "VISION5E.DevilsSight",
+            label: "VISIONED4.DevilsSight",
             canvas: {
                 shader: ColorAdjustmentsSamplerShader,
                 uniforms: { contrast: -0.25, saturation: -0.75, exposure: 0 }

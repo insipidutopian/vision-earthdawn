@@ -7,7 +7,7 @@ export class DetectionModeDevilsSight extends DetectionMode {
     constructor() {
         super({
             id: "devilsSight",
-            label: "VISION5E.DevilsSight",
+            label: "VISIONED4.DevilsSight",
             type: DetectionMode.DETECTION_TYPES.SIGHT,
             walls: true,
             angle: false

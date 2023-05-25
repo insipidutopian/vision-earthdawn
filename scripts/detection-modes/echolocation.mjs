@@ -9,7 +9,7 @@ export class DetectionModeEcholocation extends DetectionModeBlindsight {
     constructor() {
         super({
             id: "echolocation",
-            label: "VISION5E.Echolocation",
+            label: "VISIONED4.Echolocation",
             type: DetectionMode.DETECTION_TYPES.SOUND,
             angle: true
         });

@@ -7,7 +7,7 @@ export class VisionModeEcholocation extends VisionMode {
     constructor() {
         super({
             id: "echolocation",
-            label: "VISION5E.Echolocation",
+            label: "VISIONED4.Echolocation",
             canvas: {
                 shader: ColorAdjustmentsSamplerShader,
                 uniforms: { contrast: 0.5, saturation: -1, exposure: 0 }
